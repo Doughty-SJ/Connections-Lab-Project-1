@@ -1,0 +1,69 @@
+body{
+    background-color: beige;
+    text-align: center;
+    font-family: pokemonGame;
+
+}
+h1{
+    text-align: center;
+    margin: auto;
+    font-family: pokemonGame;
+}
+.shuffle_display{
+    display: inline-flex;
+    font-size: small;
+    text-align: center;
+}
+.buttons{
+    display: inline-grid;
+    
+    
+}
+#h2{
+    font-size: x-small;
+}
+#newCard{
+    background-color: crimson;
+    border-radius: 60%;
+    font-family: pokemonGame;
+
+}
+#Bingo{
+    background-color: darkblue;
+    border-radius: 60%;
+    font-family: pokemonGame;
+    color: darkgray;
+    text-decoration: darkgray;
+
+
+}
+#overlay{
+
+    /* Overlay Tutorial */
+    /*  https://www.w3schools.com/howto/howto_css_overlay.asp*/
+    position: center; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 50%; /* Full height (cover the whole page) */
+    top: 0;
+    left: s0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+    text-align: center;
+    color: gold;
+    margin:0;
+  }
+#pokemon_call{
+    margin: 0;
+    text-align: center;
+    padding-top: 20%;
+}  
+@font-face{
+    /* Custom font tutorial */
+    /* https://www.w3schools.com/css/css3_fonts.asp */
+    font-family: pokemonGame;
+    src: url(PKMN_RBYGSC.ttf);
+}
